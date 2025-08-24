@@ -53,6 +53,8 @@ using namespace std;
 
 int main()
 {
+	char complete;
+do{
 	char option;
 	double balance = 500.40;
 	
@@ -73,8 +75,9 @@ int main()
 		exit;
 	break;
 	}
-	
-	
+	cout<<"Would you like to perform another action?(y/n) \n";
+	cin>>complete;
+} while(complete =='y')	;
 	
 
 	return 0;
