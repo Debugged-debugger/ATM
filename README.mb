@@ -1,0 +1,78 @@
+# 🏧 Roro's ATM Simulator  
+
+![ATM GIF](https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif)  
+
+A simple **C++ console-based ATM program** that allows you to check balance, withdraw, and deposit money. Built as a beginner-friendly project to practice functions, loops, and conditionals in C++.  
+
+---
+
+## ✨ Features
+✅ Check account balance  
+✅ Withdraw money (with insufficient balance check)  
+✅ Deposit money  
+✅ User-friendly menu system  
+✅ Loop to perform multiple transactions  
+
+---
+
+## 🖼️ Example Run
+
+Welcome to Roro's ATM
+Choose one option from below:
+
+Show balance
+
+Withdraw money
+
+Deposit money
+
+Exit
+
+👉 Your choice: 2
+
+Enter withdraw amount: $200
+You have successfully withdraw $200
+Would you like to perform another action? (y/n)
+
+yaml
+Copy
+Edit
+
+---
+
+## ⚡ Technologies Used
+- **C++** 🖥️  
+- Functions (`deposit`, `withdraw`, `showbalance`, `showmenu`)  
+- `switch` statements and loops  
+- Reference parameters (`double &balance`)  
+
+---
+
+## 🚀 How to Run
+1. Clone this repo:
+   ```bash
+   git clone https://github.com/YOUR-USERNAME/atm-simulator.git
+Go inside the project folder:
+
+bash
+Copy
+Edit
+cd atm-simulator
+Compile and run:
+
+bash
+Copy
+Edit
+g++ atm.cpp -o atm
+./atm
+🌟 Future Improvements
+Add PIN authentication 🔐
+
+Track transaction history 📜
+
+Support multiple accounts 🏦
+
+Add interest calculations 📈
+
+🧑‍💻 Author
+Made with ❤️ in C++ by Ororiseng Tlailane
