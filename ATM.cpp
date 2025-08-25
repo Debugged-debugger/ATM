@@ -55,23 +55,29 @@ int main()
 {
 	char complete;
 do{
-	char option;
+	int option;
 	double balance = 500.40;
 	
 	cout<<"Welcome to Roro's ATM\n";
 	showmenu();
 	cin>>option;
+	while(option>4 || option<1)
+	{
+		cout<<"Invalid option. Please choose again\n";
+		showmenu();
+		cin>>option;
+	}
 	switch (option){
-	case '1':
+	case 1:
 		showbalance(balance);
 		break;
-	case '2':
+	case 2:
 	 	withdraw(balance);
 		break;
-	case '3':
+	case 3:
 		deposit(balance);
 		break;
-	case '4':
+	case 4:
 		exit;
 	break;
 	}
